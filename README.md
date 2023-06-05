@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Math Magicians 🔢
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Math-Magician project is a calculator application that enables users to perform basic arithmetic calculations. Developed using React, a widely used JavaScript library for creating user interfaces, this Single Page App (SPA) also provides a random math-related quote for users to read.
 
-## Available Scripts
+## Table of Contents 📑
 
-In the project directory, you can run:
+- [Features](#features-)🚀
+- [Built With](#built-with-)🛠
+- [Live Demo](#Live-Demo-) 💻
+- [Getting Started](#getting-started-)🏁
+- [Authors](#authors-)👥
+- [Future Features](#future-features-)🔭
+- [Contributing](#contributing-)🤝
+- [Show your support](#show-your-support-)⭐️
+- [Acknowledgments](#acknowledgments-)🙏
+- [FAQ](#faq-)❓
+- [License](#license-)📝
 
-### `npm start`
+## Features 🚀
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This web app has the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Perform arithmetic operations between two numbers.
+- Display result.
 
-### `npm test`
+## Built With 🛠
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This web app was built with:
 
-### `npm run build`
+- React
+- JavaScript
+- HTML
+- CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Demo 💻
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Coming soon.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started 🏁
 
-### `npm run eject`
+To run this web app locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites 📋
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You need to have:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- A web browser
+- A terminal
+- Git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Setup 🔧
 
-## Learn More
+Clone this repository to your desired folder:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd my-desired-folder
+git clone https://github.com/akezeth/math-magicians.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For more information on how to clone or fork a repository, check these links:
 
-### Code Splitting
+- [How to clone a repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+- [How to fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Usage 💻
 
-### Analyzing the Bundle Size
+To use this web app, open index.html with your web browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors 👥
 
-### Making a Progressive Web App
+👤 Aklilu Mekonnen
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- GitHub: [@akezeth](https://github.com/akezeth)
+- Twitter: [@akezeth](https://twitter.com/akezeth)
+- LinkedIn: [Aklilu Mekonnen](https://www.linkedin.com/in/aklilu-mekonnen-a8287b74)
 
-### Advanced Configuration
+## Future Features 🔭
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+We plan to add these features in the future:
 
-### Deployment
+- Create Home Page
+- Create Calculator Page
+- Create Quote Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing 🤝
 
-### `npm run build` fails to minify
+We welcome any contributions, issues, and feature requests!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to check the [issues page](https://github.com/akezeth/math-magicians/issues).
+
+## Show your support ⭐️
+
+If you like this project, please give it a star and share it with your friends.
+
+## Acknowledgments 🙏
+
+I would like to thank [Microverse](https://www.microverse.org/) for providing me with the knowldege to build this project.
+
+## FAQ ❓
+
+Do I need an IDE or a special text editor to make changes?
+
+- No, you don't. You can use any text editor you like.
+
+## License 📝
+
+This project is licensed under the [MIT License](https://github.com/akezeth/math-magicians/blob/main/LICENSE).
