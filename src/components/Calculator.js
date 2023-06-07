@@ -9,9 +9,18 @@ const Calculator = () => {
     opeation: null,
   });
 
+  const handleClick = (e) => {
+    setState(calculate(state, e.target.innerText));
+  };
+
   return (
     <div className="wrapper">
-      <Buttons />
+      <Buttons
+        handleClick={handleClick}
+        total={Number(state.total)}
+        operation={state.operation}
+        next={state.next}
+      />
     </div>
   );
 };
