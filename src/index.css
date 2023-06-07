@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
 body {
@@ -22,6 +21,11 @@ body {
   border: 0.5px solid #f6f8f9;
 }
 
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .screen {
   height: 4rem;
   background-color: #9ea59b;
@@ -31,11 +35,7 @@ body {
   justify-content: end;
   padding: 0.25rem;
   font-size: 1.5rem;
-}
-
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-column: span 4;
 }
 
 .span-two {
@@ -58,4 +58,8 @@ body {
 
 .orange {
   background-color: #ffa500;
+}
+
+.btn:hover {
+  border: 1.5px dotted #868181;
 }
