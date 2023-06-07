@@ -6,7 +6,6 @@ The Math-Magician project is a calculator application that enables users to perf
 
 - [Features](#features-)🚀
 - [Built With](#built-with-)🛠
-- [Live Demo](#Live-Demo-) 💻
 - [Getting Started](#getting-started-)🏁
 - [Authors](#authors-)👥
 - [Future Features](#future-features-)🔭
@@ -31,10 +30,6 @@ This web app was built with:
 - JavaScript
 - HTML
 - CSS
-
-## Live Demo 💻
-
-Coming soon.
 
 ## Getting Started 🏁
 
