@@ -9,15 +9,42 @@
 body {
   height: 100vh;
   background-color: #f4f4f4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: 'Roboto', sans-serif;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid #e2e1e1;
+  border-radius: 1rem;
+  padding: 2%;
+  margin-block: 2%;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.quote span {
+  font-weight: bold;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
 .wrapper {
-  background-color: #f6f8f9;
-  width: 20rem;
+  width: 15rem;
   border: 0.5px solid #f6f8f9;
 }
 
@@ -27,7 +54,7 @@ body {
 }
 
 .screen {
-  height: 4rem;
+  height: 3.5rem;
   background-color: #9ea59b;
   color: #fff;
   display: flex;
@@ -43,7 +70,7 @@ body {
 }
 
 .btn {
-  height: 3rem;
+  height: 2.2rem;
   padding: 1rem;
   display: flex;
   align-items: center;
