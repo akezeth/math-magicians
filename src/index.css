@@ -54,6 +54,7 @@ a:hover {
   flex-direction: column;
   gap: 20px;
   color: rgb(62, 63, 59);
+  padding: 5%;
 }
 
 .display-text {
