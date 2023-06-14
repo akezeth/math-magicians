@@ -12,7 +12,7 @@ const Quote = () => {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          'X-Api-Key': 'tKkku85xKypJq4SxNCjWPQ==WHCsgA9xQcEwguxm',
+          'X-Api-Key': 'dIYBbmcWP9ypkFaqkR6nUw==qLUYTZI32BXKuCdF',
         },
       });
       const data = await response.json();
