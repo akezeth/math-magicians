@@ -15,6 +15,7 @@ const Calculator = () => {
 
   return (
     <div className="wrapper">
+      <h2>Let&apos;s do math!</h2>
       <Buttons
         handleClick={handleClick}
         total={Number(state.total)}
