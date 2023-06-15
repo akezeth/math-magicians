@@ -6,6 +6,7 @@ The Math-Magician project is a calculator application that enables users to perf
 
 - [Features](#features-)🚀
 - [Built With](#built-with-)🛠
+- [Live Demo](#Live-Demo-)🖥️
 - [Getting Started](#getting-started-)🏁
 - [Authors](#authors-)👥
 - [Future Features](#future-features-)🔭
@@ -21,6 +22,7 @@ This web app has the following features:
 
 - Perform arithmetic operations between two numbers.
 - Display result.
+- Display quotes.
 
 ## Built With 🛠
 
@@ -30,6 +32,9 @@ This web app was built with:
 - JavaScript
 - HTML
 - CSS
+
+## Live Demo 🖥️
+- [Math-Magicians-App](https://math-magicians-app-bpfr.onrender.com/calculator)
 
 ## Getting Started 🏁
 
