@@ -12,7 +12,7 @@ const Quote = () => {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          'X-Api-Key': 'tKkku85xKypJq4SxNCjWPQ==WHCsgA9xQcEwguxm',
+          'X-Api-Key': 'dIYBbmcWP9ypkFaqkR6nUw==qLUYTZI32BXKuCdF',
         },
       });
       const data = await response.json();
@@ -42,15 +42,17 @@ const Quote = () => {
   }
 
   return (
-    <div className="display-text">
-      <p className="quote">
-        <span>Quote:</span>
-        &ldquo;
-        {quote.quote}
-        &rdquo;
-      </p>
-      <span className="author">{quote.author}</span>
-    </div>
+    <center>
+      <div className="display-text">
+        <p className="quote">
+          <span>Quote:</span>
+          &ldquo;
+          {quote.quote}
+          &rdquo;
+        </p>
+        <span className="author">{quote.author}</span>
+      </div>
+    </center>
   );
 };
 

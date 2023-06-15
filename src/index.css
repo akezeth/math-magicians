@@ -18,6 +18,45 @@ body {
   align-items: center;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 6% 1% 4%;
+  background-color: var(--header-color);
+  color: var(--text-color);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+li {
+  padding: 2%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: rgb(62, 63, 59);
+  padding: 5%;
+}
+
 .display-text {
   display: flex;
   flex-direction: column;
@@ -41,6 +80,13 @@ body {
 .author {
   align-self: flex-end;
   font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .wrapper {
@@ -89,4 +135,8 @@ body {
 
 .btn:hover {
   border: 1.5px dotted #868181;
+}
+
+center {
+  padding: 5%;
 }
